@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important; /* mesma cor do input padrão */
+}
+
+input:focus, 
+textarea:focus, 
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+}
+
+.custom-text {        
+  font-family:  "Roboto", sans-serif; 
+         
+}
+
+.custom-title {        
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+         
+}
+
+
+
+
