@@ -7,22 +7,22 @@ function App() {
 
   return (
     <>
-      <div className='d-flex row w-100  vh-100  custom-text'>
-        <div className='col-lg-6 bg-primary w-50 '>
+      <div className='d-flex row   vh-100  custom-text'>
+        <div className='col-lg-6 bg-primary  '>
           
           <div className='d-flex justify-content-start align-self-center w-5 h-5 text-center'>
-            <p className='fs-5 custom-title  text-white m-5 border border-white border-1 rounded-circle p-2  text-center'>
+            <p className='fs-5 custom-title  text-white m-4 mt-5 border border-white border-1 rounded-circle p-2  text-center'>
               GB
             </p>
           </div>
 
-          <div className=' d-flex flex-column justify-content-center text-center align-self-center mt-5  gap-3'>
+          <div className=' d-flex flex-column justify-content-center text-center align-self-center h-50  gap-3'>
             <h2 className=' text-white mt-5'>Bem vindo</h2>
-            <p className='text-white w-70 '>Faça login em nossa loja para aproveitar descontos exclusivos, promoções imperdíveis e ofertas incríveis feitas especialmente para você!</p>
+            <p className='text-white w-70 m-2 mt-0 p-5 pt-0 '>Faça login em nossa loja para aproveitar descontos exclusivos, promoções imperdíveis e ofertas incríveis feitas especialmente para você!</p>
           </div>
         </div>
         
-        <div className='col-lg-6 w-50 h-100 mt-5 '>
+        <div className='col-lg-6  h-100 mt-5 '>
             <div className='d-flex justify-content-center flex-column'>
               <div className='d-flex justify-content-center'>
                 <h3 className='  text-primary mt-5'>Login</h3>
