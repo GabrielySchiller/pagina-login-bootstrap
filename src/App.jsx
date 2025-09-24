@@ -30,14 +30,22 @@ function App() {
 
 
               <div className='d-flex justify-content-center flex-column gap-5 mt-4 '>
-                 <form className='input-group d-flex justify-content-center '>
-                  <span className='input-group-text w-20 h-25 bg-primary text-white '>Nome</span>
-                  <input className='w-50 h-30 border-1 border-bottom  border-primary ' type='text' />
+                
+                
+                 <form className=' d-flex justify-content-center flex-column gap-4 '>
+                   <div className='input-group d-flex justify-content-center'>
+                     <label for='nome' className='input-group-text w-20 h-30  border-primary bg-primary text-white '>Nome</label>
+                     <input id='nome' className='w-50 h-30 border-1 border-bottom  border-primary ' type='text' />
+                   </div>
+
+                  <div className='input-group  d-flex justify-content-center'>
+                     <label for='senha' className='input-group-text  w-20 h-25  border-primary  bg-primary text-white '>Senha</label>
+                     <input id='senha' className='w-50 h-30 border-1 border-bottom border-primary  ' type='password' />
+                  </div>
                 </form>
-                <form className='input-group input-group d-flex justify-content-center '>
-                  <span className='input-group-text  w-20 h-25  bg-primary text-white '>Senha</span>
-                  <input className='w-50 h-30 border-1 border-bottom border-primary  ' type='text' />
-                </form>
+
+                   
+
               
               <div className='form-check form-switch d-flex justify-content-center me-3 gap-3'>
                 <input className='form-check-input' type='checkbox' id='myswitch' name='mode' value='no' />
